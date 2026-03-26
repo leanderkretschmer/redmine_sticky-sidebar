@@ -11,7 +11,7 @@ A simple Redmine 6 plugin that makes the sidebar sticky when scrolling in the ti
 1. Clone or copy this plugin to your Redmine `plugins/` directory:
    ```bash
    cd redmine/plugins
-   git clone https://github.com/leanderkretschmer/redmine_sticky-sidebar.git
+   git clone https://github.com/leanderkretschmer/redmine_sticky-sidebar.git redmine_sticky_sidebar
    ```
 2. Restart your Redmine application.
 

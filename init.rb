@@ -7,4 +7,4 @@ Redmine::Plugin.register :redmine_sticky_sidebar do
   author_url 'https://github.com/leanderkretschmer'
 end
 
-require_dependency 'redmine_sticky_sidebar/view_hooks'
+require File.expand_path('../lib/redmine_sticky_sidebar/view_hooks', __FILE__)
