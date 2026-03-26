@@ -1,4 +1,4 @@
-Redmine::Plugin.register :redmine_sidebar_wrap do
+Redmine::Plugin.register :redmine_sticky_sidebar do
   name 'Redmine Sticky Sidebar Plugin'
   author 'Leander Kretschmer'
   description 'Makes the Redmine sidebar sticky when scrolling in the ticket view.'
@@ -7,4 +7,4 @@ Redmine::Plugin.register :redmine_sidebar_wrap do
   author_url 'https://github.com/leanderkretschmer'
 end
 
-require_dependency 'redmine_sticky-sidebar/view_hooks'
+require_dependency 'redmine_sticky_sidebar/view_hooks'
